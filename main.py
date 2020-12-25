@@ -4,6 +4,10 @@ import os
 import time
 import random
 
+WIDTH, HEIGHT = 750,750
+GAME_WINDOW = pygame.display.set_mode((WIDTH,HEIGHT))
+pygame.display.set_caption("Space Invaders")
+
 # loading images
 RED_SHIP = pygame.image.load("assets\pixel_ship_red_small.png")
 GREEN_SHIP = pygame.image.load("assets\pixel_ship_green_small.png")
